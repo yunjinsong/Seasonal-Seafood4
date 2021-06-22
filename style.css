@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2? family = Jua & display = swap');
+
+
+body{
+    margin: 0px;
+}
+
+#container{
+    width: 100%; 
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+#header{
+    width: 100%; 
+    background-color:rgb(255, 255, 255);
+}
+
+.manusname{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#menus{
+    height: 80px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color:rgb(0, 51, 129);
+    align-items: center;
+    color: rgb(255, 255, 255);
+    }
+
+#menus li{
+    font-style: light;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family : 'Jua', sans-serif;
+}
+
+#menus li:hover{
+    font-weight: bold;
+    list-style-type: none;
+    color:rgb(115, 192, 255);
+    font-size: 16px;
+    font-family : 'Jua', sans-serif;
+}
+
+#main{
+    width: 100%;
+    height: 700px;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explain0{
+    color: rgb(207, 237, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Jua', sans-serif;
+}
+
+.explain1{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Jua', sans-serif;
+}
+
+.explain2{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: solid;
+    font-size: 15px;
+    font-family: 'Jua', sans-serif;
+}
+
+#footer{
+    width: 100%;
+    height: 222px;
+    background-color:rgb(0, 51, 129);
+}
+
+#copy{
+    position: relative;
+    top: 150px;
+    left: 130px;
+    color: white;
+    font-size: 10px;
+}
